@@ -1,0 +1,24 @@
+{
+  "name": "usox/psl",
+  "autoload": {
+	"files": [
+		"src/Psl/Str/transform.php",
+		"src/Psl/Arr/introspect.php"
+	]
+  },
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.3",
+    "mockery/mockery": "^1.1"
+  },
+  "config": {
+    "platform": {
+      "php": "7.2"
+    }
+  },
+  "scripts": {
+    "tests": "php bin/phpunit"
+  }
+}
