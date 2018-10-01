@@ -3,7 +3,9 @@
   "autoload": {
 	"files": [
 		"src/Psl/Str/transform.php",
-		"src/Psl/Arr/introspect.php"
+		"src/Psl/Arr/introspect.php",
+		"src/Psl/Arr/transform.php",
+		"src/Psl/Arr/select.php"
 	]
   },
   "require": {
@@ -19,6 +21,6 @@
     }
   },
   "scripts": {
-    "tests": "php bin/phpunit"
+    "tests": "@php vendor/bin/phpunit tests"
   }
 }
